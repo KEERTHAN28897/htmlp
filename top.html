@@ -1,0 +1,75 @@
+<html>
+<head>
+
+
+
+<style>
+.c{
+color:red;
+
+}
+
+a:link
+{text-decoration:none;
+color:white
+
+}
+
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+</style>
+
+
+</head>
+
+<body  background="OnlineVideo.jpg">
+<h2 style="font-family:monotype corsiva; color:white; text-align:center;"> AMAZING ONLINE VIDEO LIBRARY</H2>
+<table cellspacing="20" cellpadding="20" border="0" >
+<tr>
+<th><a href="home.html " target="_blank">HOME</a></th>
+<th><a href="services.html" target="_blank">SERVICES</a></th>
+<th><a href="CARRERS.html" target="_blank ">CARRERS</a></th>
+<th><a href="ABOUTUS.html" target="_blank">ABOUT US</a></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+
+
+
+
+<th id="fordate" STYLE="color:white;" value=" " ></th>
+
+</tr>
+<script>
+setInterval(f,500);
+function f()
+{
+var d=new Date();
+var year=d.getFullYear();
+var month=d.getMonth()+1;
+var day=d.getDate();
+document.getElementById("fordate").innerHTML = day+"/"+month+"/"+year;
+}
+
+</script>
+</body>
+
+</html>
